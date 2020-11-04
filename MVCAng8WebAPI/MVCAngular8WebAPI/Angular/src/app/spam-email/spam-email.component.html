@@ -1,0 +1,25 @@
+<div class="container">
+  <h1>
+    Spam List
+  </h1>
+  <hr />
+  <a href="/createbook">Create Spam</a>
+  <hr />
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Spam Email</th>
+        <th>Description</th>
+        <th colspan="2">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let spam of spams">
+        <td>{{ spam.Email }}</td>
+        <td>{{ spam.Description }}</td>
+        <td><a href="/details/{{spam.Id}}">Details</a></td>
+        <td><a href="/edit/{{spam.Id}}">Edit</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div> 

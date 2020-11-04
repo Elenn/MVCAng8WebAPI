@@ -1,0 +1,103 @@
+/* Global Styles */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+body {
+  margin: 1em;
+  padding: 0; 
+}
+
+body, input[text], button {
+  color: #333;
+  font-family: Cambria, Georgia;
+}
+
+a {
+  cursor: pointer;
+  cursor: hand;
+}
+
+button {
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+  button:hover {
+    background-color: #cfd8dc;
+  }
+
+  button:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+  }
+
+/* Navigation link styles */
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+}
+
+  nav a:visited, a:link {
+    color: #607D8B;
+  }
+
+  nav a:hover {
+    color: #039be5;
+    background-color: #CFD8DC;
+  }
+
+  nav a.active {
+    color: #039be5;
+  }
+
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  background-color: #d7e3fa; 
+}
+
+.my-content {
+  background-color: rgb(253, 254, 254); 
+}
+
+.footer-git {
+  background-color: #c3d6f9;
+}
+
+.footer-git li {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 5px;
+}
+
+.footer-git li a {
+  color: #333; 
+}
+
+.footer-git li:first-child {
+  border-bottom: 0.0625rem solid rgb(63, 63, 66);
+  margin-right: 40px;
+} 

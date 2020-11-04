@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCAngular8WebAPI.Test", "MVCAngular8WebAPI.Test\MVCAngular8WebAPI.Test.csproj", "{3A9361C8-0261-45AA-A759-615C6802EC66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCAngular8WebAPI", "MVCAngular8WebAPI\MVCAngular8WebAPI.csproj", "{3F7B13CA-CD7D-4AE6-BE9F-270DA4B7669D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A9361C8-0261-45AA-A759-615C6802EC66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A9361C8-0261-45AA-A759-615C6802EC66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A9361C8-0261-45AA-A759-615C6802EC66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A9361C8-0261-45AA-A759-615C6802EC66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F7B13CA-CD7D-4AE6-BE9F-270DA4B7669D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F7B13CA-CD7D-4AE6-BE9F-270DA4B7669D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F7B13CA-CD7D-4AE6-BE9F-270DA4B7669D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F7B13CA-CD7D-4AE6-BE9F-270DA4B7669D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5FF7123-4228-4927-AB7B-78B5B59B0F9F}
+	EndGlobalSection
+EndGlobal

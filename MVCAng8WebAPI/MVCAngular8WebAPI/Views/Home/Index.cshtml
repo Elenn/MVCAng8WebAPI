@@ -1,0 +1,40 @@
+﻿@using System.Web.Optimization
+
+ 
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Book - CRUD Example</title>
+    @Styles.Render("~/Content/Styles")
+    @Styles.Render("~/Content/css")
+</head>
+<body> 
+    <div class="my-content">
+        <app-root></app-root>
+    </div> 
+    <div>
+        <a class="twitter-share-button"
+           href="https://twitter.com/intent/tweet?text=Hello%20world"
+           data-size="large">
+            Tweet
+        </a>
+    </div>
+    <script src="~/Angular/dist/Angular/runtime-es2015.js" type="module"></script>
+    <script src="~/Angular/dist/Angular/runtime-es5.js" nomodule defer></script>
+    <script src="~/Angular/dist/Angular/polyfills-es5.js" nomodule defer></script>
+    <script src="~/Angular/dist/Angular/polyfills-es2015.js" type="module"></script>
+    <script src="~/Angular/dist/Angular/styles-es2015.js" type="module"></script>
+    <script src="~/Angular/dist/Angular/styles-es5.js" nomodule defer></script>
+    <script src="~/Angular/dist/Angular/vendor-es2015.js" type="module"></script>
+    <script src="~/Angular/dist/Angular/vendor-es5.js" nomodule defer></script>
+    <script src="~/Angular/dist/Angular/main-es2015.js" type="module"></script>
+    <script src="~/Angular/dist/Angular/main-es5.js" nomodule defer></script>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>
