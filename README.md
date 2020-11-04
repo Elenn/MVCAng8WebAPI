@@ -29,7 +29,7 @@ Install node modules
 build Angular 
 
 ```
-cd  MVCAng8WebAPI\MVCAngular5WebAPI\Angular 
+cd  MVCAng8WebAPI\MVCAngular8WebAPI\Angular 
 npm install 
 ng build
 ```
